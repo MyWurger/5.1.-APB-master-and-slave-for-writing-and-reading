@@ -1,0 +1,323 @@
+$date
+	Thu Nov 09 18:51:41 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Lab1_tb $end
+$var wire 1 ! PWRITE $end
+$var wire 32 " PWDATA [31:0] $end
+$var wire 1 # PSEL $end
+$var wire 1 $ PREADY $end
+$var wire 32 % PRDATA_MASTER [31:0] $end
+$var wire 32 & PRDATA [31:0] $end
+$var wire 1 ' PENABLE $end
+$var wire 32 ( PADDR [31:0] $end
+$var reg 32 ) PADDR_MASTER [31:0] $end
+$var reg 1 * PCLK $end
+$var reg 1 + PRESET $end
+$var reg 32 , PWDATA_MASTER [31:0] $end
+$var reg 1 - PWRITE_MASTER $end
+$scope module Lab1_master_1 $end
+$var wire 32 . PADDR_MASTER [31:0] $end
+$var wire 1 * PCLK $end
+$var wire 1 + PRESET $end
+$var wire 32 / PWDATA_MASTER [31:0] $end
+$var wire 1 - PWRITE_MASTER $end
+$var wire 1 $ PREADY $end
+$var wire 32 0 PRDATA [31:0] $end
+$var reg 32 1 PADDR [31:0] $end
+$var reg 1 ' PENABLE $end
+$var reg 32 2 PRDATA_MASTER [31:0] $end
+$var reg 1 # PSEL $end
+$var reg 32 3 PWDATA [31:0] $end
+$var reg 1 ! PWRITE $end
+$scope function apb_read $end
+$var reg 32 4 inp_addr [31:0] $end
+$upscope $end
+$scope function apb_write $end
+$var reg 32 5 inp_addr [31:0] $end
+$var reg 32 6 inp_data [31:0] $end
+$upscope $end
+$upscope $end
+$scope module Lab1_slave_1 $end
+$var wire 32 7 PADDR [31:0] $end
+$var wire 1 * PCLK $end
+$var wire 1 ' PENABLE $end
+$var wire 1 # PSEL $end
+$var wire 32 8 PWDATA [31:0] $end
+$var wire 1 ! PWRITE $end
+$var reg 32 9 PRDATA [31:0] $end
+$var reg 1 $ PREADY $end
+$upscope $end
+$scope task read_data $end
+$var reg 32 : ADDR [31:0] $end
+$upscope $end
+$scope task write_data $end
+$var reg 32 ; ADDR [31:0] $end
+$var reg 32 < DATA [31:0] $end
+$upscope $end
+$upscope $end
+$scope module Lab1_tb $end
+$scope module Lab1_master_1 $end
+$scope function apb_read $end
+$upscope $end
+$scope function apb_write $end
+$upscope $end
+$upscope $end
+$scope module Lab1_slave_1 $end
+$upscope $end
+$scope task read_data $end
+$upscope $end
+$scope task write_data $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx <
+bx ;
+bx :
+b0 9
+bx 8
+b0 7
+bx 6
+bx 5
+bx 4
+bx 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+b0 ,
+0+
+0*
+b0 )
+b0 (
+0'
+b0 &
+b0 %
+0$
+0#
+bx "
+x!
+$end
+#150
+1$
+1'
+1#
+1!
+b11 "
+b11 3
+b11 8
+b11 6
+b0 5
+b11 ,
+b11 /
+1-
+b0 ;
+b11 <
+1+
+1*
+#300
+0*
+#450
+0$
+0'
+0#
+1*
+#600
+0*
+#750
+1$
+1'
+1#
+b1000000100010010000000100011 "
+b1000000100010010000000100011 3
+b1000000100010010000000100011 8
+b100 (
+b100 1
+b100 7
+b1000000100010010000000100011 6
+b100 5
+b100 )
+b100 .
+b1000000100010010000000100011 ,
+b1000000100010010000000100011 /
+b100 ;
+b1000000100010010000000100011 <
+1*
+#900
+0*
+#1050
+0$
+0'
+0#
+1*
+#1200
+0*
+#1350
+1$
+1'
+1#
+b1010110010010010100101101010101 "
+b1010110010010010100101101010101 3
+b1010110010010010100101101010101 8
+b1000 (
+b1000 1
+b1000 7
+b1010110010010010100101101010101 6
+b1000 5
+b1000 )
+b1000 .
+b1010110010010010100101101010101 ,
+b1010110010010010100101101010101 /
+b1000 ;
+b1010110010010010100101101010101 <
+1*
+#1500
+0*
+#1650
+0$
+0'
+0#
+1*
+#1800
+0*
+#1950
+1$
+1'
+1#
+b1000100010011010100100101010100 "
+b1000100010011010100100101010100 3
+b1000100010011010100100101010100 8
+b1100 (
+b1100 1
+b1100 7
+b1000100010011010100100101010100 6
+b1100 5
+b1100 )
+b1100 .
+b1000100010011010100100101010100 ,
+b1000100010011010100100101010100 /
+b1100 ;
+b1000100010011010100100101010100 <
+1*
+#2100
+0*
+#2250
+0$
+0'
+0#
+1*
+#2400
+0*
+#2550
+b11 %
+b11 2
+1$
+b11 &
+b11 0
+b11 9
+1'
+1#
+0!
+b0 (
+b0 1
+b0 7
+b0 4
+b0 )
+b0 .
+0-
+b0 :
+1*
+#2700
+0*
+#2850
+0$
+0'
+0#
+1*
+#3000
+0*
+#3150
+b1000000100010010000000100011 %
+b1000000100010010000000100011 2
+1$
+b1000000100010010000000100011 &
+b1000000100010010000000100011 0
+b1000000100010010000000100011 9
+1'
+1#
+b100 (
+b100 1
+b100 7
+b100 4
+b100 )
+b100 .
+b100 :
+1*
+#3300
+0*
+#3450
+0$
+0'
+0#
+1*
+#3600
+0*
+#3750
+b1010110010010010100101101010101 %
+b1010110010010010100101101010101 2
+1$
+b1010110010010010100101101010101 &
+b1010110010010010100101101010101 0
+b1010110010010010100101101010101 9
+1'
+1#
+b1000 (
+b1000 1
+b1000 7
+b1000 4
+b1000 )
+b1000 .
+b1000 :
+1*
+#3900
+0*
+#4050
+0$
+0'
+0#
+b1100 4
+b1100 )
+b1100 .
+b1100 :
+1*
+#4200
+0*
+#4350
+b1000100010011010100100101010100 %
+b1000100010011010100100101010100 2
+1$
+b1000100010011010100100101010100 &
+b1000100010011010100100101010100 0
+b1000100010011010100100101010100 9
+1'
+1#
+b1100 (
+b1100 1
+b1100 7
+1*
+#4500
+0*
+#4650
+0$
+0'
+0#
+1*
